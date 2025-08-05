@@ -5,7 +5,7 @@ This Rust dApp uses libp2p, ratatui (with a crossterm backend), and encryption l
 is presented on a ratatui front-end, allowing for a more reactive TUI (e.g., message notifications!). The rest of this README shows 
 a video demo of the application, and then explains the setup and usage of the application.
 
-## Vide Demo
+## Video Demo
 
 <div align="center">
   <a href="http://www.youtube.com/watch?v=GzJ9kZStnF4" title="COSC473 Rust File Sharing Decentralised App">

@@ -1,14 +1,27 @@
 # SwapBytes libp2p App
 
+This Rust dApp uses libp2p, ratatui (with a crossterm backend), and encryption libraries (x25519-dalek, and chacha20poly1305) to
+~securely send messages and text files (serialisation and deserialisation currently only supports text here) between users. This
+is presented on a ratatui front-end, allowing for a more reactive TUI (e.g., message notifications!). The rest of this README shows 
+a video demo of the application, and then explains the setup and usage of the application.
+
+## Vide Demo
+
+<div align="center">
+  <a href="http://www.youtube.com/watch?v=GzJ9kZStnF4" title="COSC473 Rust File Sharing Decentralised App">
+    <img src="http://img.youtube.com/vi/GzJ9kZStnF4/0.jpg" alt="Watch the demo here" style="width: 100%; max-width: 800px;" />
+  </a>
+</div>
+
 ## Installation and running the application
 
 Install and open the application directory
 ```
-    git clone https://eng-git.canterbury.ac.nz/rsc104/cosc473-assignment-2.git 
+    git clone https://github.com/ryanscofield03/COSC473-Rust-File-Sharing-Decentralised-App.git
 ```
 
 ```
-    cd cosc473-assignement2
+    cd COSC473-Rust-File-Sharing-Decentralised-App
 ```
 
 First start up our rendezvous server so that we can discover peers on the network 

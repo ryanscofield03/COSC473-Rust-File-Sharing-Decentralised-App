@@ -1,4 +1,4 @@
-# SwapBytes libp2p App
+# File Sharing dApp
 
 This Rust dApp uses libp2p, ratatui (with a crossterm backend), and encryption libraries (x25519-dalek, and chacha20poly1305) to
 ~securely send messages and text files (serialisation and deserialisation currently only supports text here) between users. This

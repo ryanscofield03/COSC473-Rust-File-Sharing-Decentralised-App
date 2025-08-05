@@ -1,0 +1,3 @@
+TODO list:
+    * Discovery while not on a local network with Kademlia DHT and/or hole punching (optional... and probably difficult)
+    * clean up code a little bit, maybe modularise a bit more

@@ -1,0 +1,18 @@
+[package]
+name = "server"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+futures = "0.3.31"
+tracing-subscriber = { version = "0.3.19", features = ["env-filter"] }
+tokio = "1.44.2"
+tracing = "0.1.41"
+
+[dependencies.libp2p]
+version = "0.55"
+features = ["tokio", "ping"]
+
+[[bin]]
+name = "server"
+path = "src/main.rs"

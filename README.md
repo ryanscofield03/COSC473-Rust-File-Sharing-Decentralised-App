@@ -9,7 +9,7 @@ a video demo of the application, and then explains the setup and usage of the ap
 
 <div align="center">
   <a href="http://www.youtube.com/watch?v=GzJ9kZStnF4" title="COSC473 Rust File Sharing Decentralised App">
-    <img src="http://img.youtube.com/vi/GzJ9kZStnF4/0.jpg" alt="Watch the demo here" style="width: 100%; max-width: 800px;" />
+    <img src="http://img.youtube.com/vi/GzJ9kZStnF4/0.jpg" alt="Watch the demo here" style="width: 60%" />
   </a>
 </div>
 
